@@ -66,4 +66,27 @@
     color: white;
 }
 
+@media only screen and (max-width: 768px) {
   
+  #netflixlogo {
+      padding-left: 5px;
+  }
+
+  .container2 {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .container {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .img {
+      padding: 20px 5px;
+  }
+
+  .para {
+      padding-left: 5px;
+  }
+}
