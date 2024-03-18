@@ -74,34 +74,32 @@
 
 @media only screen and (max-width: 768px) {
 
-  /* Adjustments for Netflix logo */
+
   #netflixlogo {
     padding-left: 10px;
   }
 
-  /* Adjustments for container2 */
+
   .container2 {
     padding-left: 10px;
     padding-right: 10px;
-    width: auto; /* Adjusting width for responsiveness */
+    width: auto; 
   }
 
-  /* Adjustments for container */
+
   .container {
     padding-left: 10px;
     padding-right: 10px;
-    width: auto; /* Adjusting width for responsiveness */
+    width: auto; 
   }
 
-  /* Adjustments for image */
   .img {
-    height: 50px; /* Decrease height for smaller screens */
-    padding: 10px 5px; /* Adjust padding */
+    height: 50px;
+    padding: 10px 5px; 
   }
 
-  /* Adjustments for paragraph */
   .para {
-    padding-left: 10px; /* Adjust padding */
-    font-size: 16px; /* Adjust font size for smaller screens */
+    padding-left: 10px;
+    font-size: 16px; 
   }
 }
