@@ -2,104 +2,94 @@
 
 #netflixlogo {
     height: 23px;
-  position: absolute;
-  padding-left: 65px;
-  padding-top: 0px;
+    position: absolute;
+    padding-left: 5%; 
+    padding-top: 0px;
 }
 
-.nav1{
+.nav1 {
     background-image: none;
     color: white;
     font-weight: 600;
     font-size: 15px;
     text-decoration: none;
-  }
+}
 
 #navbar {
     color: white;
-  }
+}
 
-  body{
+body {
     background-image: url(https://raw.githubusercontent.com/Kalvium-Program/netflix-clone-boilerplate/main/assets/Title-Image.png);
     background-color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    /* background-size: 100% 100%; */
-  }
-
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding: 0; 
 }
-  .container2 {
+
+.container2 {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     width: 150px;
-    padding-left: 1250px;
-  
-  }
-  .container{
+    padding-left: 5%; 
+}
+
+.container {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 270px;
     padding-top: 0px;
-    padding-left: 170px;
+    padding-left: 5%; 
     margin-top: 0px;
 }
 
-.nav2{
+.nav2 {
     height: 20px;
 }
 
-
-.img{
+.img {
     height: 70px;
-    padding-top: 400px;
-    padding-left: 50px;
+    padding-top: 10%; 
+    padding-left: 5%; 
 }
 
-.para{
+.para {
     padding-top: 0%;
-    padding-left: 100px;
+    padding-left: 5%;
     font-size: 20px;
     color: white;
 }
 
 @media only screen and (max-width: 768px) {
+    #netflixlogo {
+        padding-left: 5%; 
+    }
 
+    .container2 {
+        padding-left: 5%; 
+        padding-right: 5%; 
+        width: auto;
+    }
 
-  #netflixlogo {
-    padding-left: 10px;
-  }
+    .container {
+        padding-left: 5%; 
+        padding-right: 5%; 
+        width: auto;
+    }
 
+    .img {
+        height: 50px;
+        padding: 10px 5px;
+    }
 
-  .container2 {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: auto; 
-  }
-
-
-  .container {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: auto; 
-  }
-
-  .img {
-    height: 50px;
-    padding: 10px 5px; 
-  }
-
-  .para {
-    padding-left: 10px;
-    font-size: 16px; 
-  }
+    .para {
+        padding-left: 5%; 
+        font-size: 16px;
+    }
 }
